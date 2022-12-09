@@ -5,7 +5,7 @@
 + Email:stroichmwork@gmail.com
 + GitHub:stroich
 ## About Me
-Personal qualities: purposefulness, sociability, resistance to stress. Interested in development in the field of front-end development. High self-motivation.
+Personal qualities: purposefulness, sociability, resistance to stress. Interested in development in the field of front-end development. High self-motivation.I am ready to constantly learn something new.
 ## Skills
 + HTML
 + CSS
