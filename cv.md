@@ -27,6 +27,7 @@ else {
 ## Experience
 ## Education
 Courses:
++ [HTML Academy](https://htmlacademy.ru/)
 + Website development with html, css and javascript (108 academic hours)
 ## English
 A1
