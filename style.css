@@ -15,9 +15,10 @@ html {
     --h2-background: #efd7c4;
     --h1-color:#97877d;
     --h4-color:#95928d;
+    --width-screen:1024px;
 }
 .container {
-    max-width: 1024px;
+    max-width: var(--width-screen);
     margin: 0 auto;
 }
 .flex{
@@ -56,9 +57,10 @@ li{
 a{
     text-decoration: none;
 }
-img{
+header img{
     width: 100%;
     border-radius: 50%;
+    border: 5px solid transparent;
 }
 svg{
     width: 80px;
@@ -132,7 +134,7 @@ section.code div{
     padding: 0 20px;
 }
 section.code div{
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 .contacts-item{
     position: relative;
@@ -146,6 +148,15 @@ section.code div{
     width: 20px;
     height: 20px;
     background-size: contain;
+}
+section.projects img{
+    width: var(--width-screen);
+}
+footer p{
+    color: white;
+}
+svg{
+    fill:#efd7c4;
 }
 section.contacts .contacts-item:first-child:before{
     background-image: url("assets/icon/1.svg");
@@ -162,6 +173,12 @@ section.contacts .contacts-item:nth-child(4):before{
 section.skills .contacts-item:before{
     background-image: url("assets/icon/5.svg");
 }
+section.education .contacts-item:before{
+    background-image: url("assets/icon/5.svg");
+}
 nav a:hover{
     color: var(--h1-color);
+}
+header img:hover{
+    border: 5px solid #97877d;
 }
